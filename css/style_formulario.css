@@ -1,0 +1,95 @@
+#div-form {
+    width: 500px;
+    min-height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffb907;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#form {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.6em;
+}
+
+.input-vlr01 {
+    width: 400px;
+
+}
+
+.input-vlr01,
+.input-vlr02 {
+    height: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.input-vlr02 {
+    width: 250px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    resize: none;
+}
+
+#div-btns {
+    margin: 20px 0px;
+    padding: 5px;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ffb907;
+    letter-spacing: 5px;
+}
+
+a:link{
+    font-family: 'Courier New';
+    text-decoration: none;
+    color: #ffb907;
+    background-color: #969494;
+}
+
+a:visited, a:active{
+    font-family: 'Courier New';
+    text-decoration: none;
+    color: #ffb907;
+    background-color: #969494;
+}
+
+a:hover{
+    color: #07ff28;
+    background-color: #ffb907;
+}
+
