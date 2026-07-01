@@ -6,8 +6,14 @@
     <title>Projeto WEB HTML/CSS</title>
 
     <link rel="stylesheet" href="../css/style_formulario.css">
+
+    <link rel="shortcut icon" href="../imagens/favicon.svg" type="image/x-icon">
 </head>
 <body>
+    <div id="links">
+        <a href="../index.html">Página Inicial</a> | <a href="texto.html"> Texto </a> | <a href="outros/texto_especial.html">Texto Especial</a> | <a href="listas.html">Listas</a> | <a href="imagens.html">Imagens</a> | <a href="formulario.html">Formulário</a>
+    </div>
+
     <div id="div-form">
         <h3>Formulário</h3>
 
@@ -50,11 +56,14 @@
             </select>
 
             <label for="comentario">Comentário</label>
-            <textarea name="comentario" id="comentario" placeholder="Informe seu comentário" required></textarea>
+            <textarea name="comentario" id="comentario" placeholder="Informe seu comentário" ></textarea>
+
+            <div id="div-btns">
+                <button type="submit" id="btn-enviar">Enviar</button>
+                <button type="reset" id="btn-limpar">Limpar</button>
+                <button id="btn">Botão</button>
+            </div>
             
-            <button type="submit" id="btn-enviar">Enviar</button>
-            <button type="reset" id="btn-limpar">Limpar</button>
-            <button id="btn">Botão</button>
         </form>
 
     </div>
